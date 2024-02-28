@@ -113,7 +113,7 @@ def game(balance):
     print_slot(slots)
     winnings, winning_line = check_winnings(slots, lines, bet, symbol_value)
     print(f"You won {winnings}")
-    print("Winning lines: ", *winning_line)
+    print("Winning line: ", *winning_line)
     return winnings - total_bet
 def main():
     balance = deposit()
